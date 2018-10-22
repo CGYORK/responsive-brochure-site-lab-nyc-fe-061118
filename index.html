@@ -8,31 +8,136 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="stylesheet" href="responsive-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-    <div class="wrapper">
-      <div class="gridItem Hero1">1</div>
-      <div class="gridItem Hero">
-       <nav> <!-- NAVIGATION BEGINS-->
-          <a href="#">HOME</a>
-          <a href="#">HOW IT WORKS</a>
-          <a href="#">EXPLORE</a>
-          <a href="#">SIGN UP</a>
-        </nav> <!-- NAVIGATION ENDS-->
-        <div id="hero-content"> <!-- HERO CONTENT BEGINS-->
-          <h1>How do you measure up?</h1>
-          <p>The average rent in New York City is $2,524.50 per month. 
-          <p>How much should you be paying?</p>
-          <p> 
-          <button>LEARN MORE</button>
+    <div class="wrapper-outer">
+      <!--<div class="gridItem Hero1">-->
+        <!--<div class="logo"><img src="/ClearRent-Logo.png"></div>-->
+      <!--</div>-->
+      <div class="gridItem Hero overlay">
+        <nav> <!-- NAVIGATION BEGINS-->
+            <a href="#">HOME</a>
+            <a href="#">HOW IT WORKS</a>
+            <a href="#">EXPLORE</a>
+            <a href="#">SIGN UP</a>
+          </nav> <!-- NAVIGATION ENDS-->
+          <div id="hero-content"> <!-- HERO CONTENT BEGINS-->
+            <h1>How do you measure up?</h1>
+            <p>The average rent in New York City is $2,524.50 per month.</p>
+            <p>How much should you be paying?</p>
+            <p> 
+            <button>LEARN MORE</button>
         </div> <!-- HERO CONTENT ENDS-->
       </div>
-        <div class="gridItem mobile-layout">3</div>
-        <div class="gridItem featured-property mobile-layout">4</div>
-        <div class="gridItem mobile-layout">5</div>
-        <div class="gridItem mobile-layout">6</div>
-        <div class="gridItem mobile-layout">7</div>
-        <div class="gridItem footer">8</div>
-    </div>
+        <div class="inner-grid mobile-layout wrapper-inner">
+          <div id="card3" class="gridItem mobile-layout">
+            <div class= "Image">
+              <img src="https://cdn-img2.streeteasy.com/nyc/image/86/291470886.jpg">
+            </div>
+            <div class= "Card-Content">
+              <div class= "Address">121 East 22nd Street #N602</div>
+              <div class= "Rent">
+                <span>$2,783.25</span>
+                <span class="avgRent">avg. rent</span>
+              </div>
+              <div>
+                <span class="Score">A</span>
+                <span class="Ratings">Bldg. Rating</span>
+                <span class="Stars">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                </span>
+                <span class="Reviews">4 Reviews</span>
+              </div>
+            </div>
+          </div>
+          <div class="featured-property gridItem mobile-layout">
+            <div class = "">
+              <img width="487px" src="https://images1.apartments.com/i2/cAz4xjI59dHUWhsl3IDKVRYaq2U3UrEl4c9z9upj_64/111/view-34-new-york-ny-building-photo.jpg">
+            <div class="Card-Content">
+              <div class="Address">Explore Local Mid-Town Buildings</div>
+              <div class="featured-copy">Renewing a lease or searching for a new home?  Discover what others are paying today in midtown buildings, what they think of their landlords, and how many violations your prospect may have.</div>
+            </div>
+            </div>
+          </div>
+          <div class="gridItem mobile-layout">
+            <div class= "Image">
+              <img src="https://cdn-img2.streeteasy.com/nyc/image/58/324895458.jpg">
+            </div>
+            <div class= "Card-Content">
+              <div class= "Address">400 West 25th Street</div>
+              <div class= "Rent">
+                <span>$2,783.25</span>
+                <span class="avgRent">avg. rent</span>
+              </div>
+              <div>
+                <span class="Score">B</span>
+                <span class="Ratings">Bldg. Rating</span>
+                <span class="Stars">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </span>  
+                <span class="Reviews">20 Reviews</span>
+              </div>
+            </div>
+          </div>
+          <div class="gridItem mobile-layout">
+              <div class= "Image">
+              <img src="https://cdn-img0.streeteasy.com/nyc/image/28/323236028.jpg">
+            </div>
+            <div class= "Card-Content">
+              <div class= "Address">178 Norfolk Street</div>
+              <div class= "Rent">
+                <span>$2,355.00</span>
+                <span class="avgRent">avg. rent</span>
+              </div>
+              <div>
+                <span class="Score">B+</span>
+                <span class="Ratings">Bldg. Rating</span>
+                <span class="Stars">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </span>  
+                <span class="Reviews">6 Reviews</span>
+              </div>
+            </div>
+          </div>
+          <div class="gridItem mobile-layout">
+            <div class= "Image">
+              <img src="https://cdn-img2.streeteasy.com/nyc/image/82/324674482.jpg">
+            </div>
+            <div class= "Card-Content">
+              <div class= "Address">235 East 4th Street</div>
+              <div class= "Rent"> 
+                <span>$1,852.50</span>
+                <span class="avgRent">avg. rent</span>
+              </div>
+              <div>
+                <span class="Score">C-</span>
+                <span class="Ratings">Bldg. Rating</span>
+                <span class="Stars">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </span>
+                <span class="Reviews">15 Reviews</span>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="gridItem footer">8</div>  
+        </div>
   </body>
 </html>
